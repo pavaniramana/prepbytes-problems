@@ -55,12 +55,43 @@
 // calculator(1,2)
 
 
-function checkdivisiblity(a) {
-    if(a%6==0 &&a%9==0 ) {
-        console.log("divisible by two");
-    }
-    else{
-        console.log("not divisible by two");
-    }
+// function checkdivisiblity(a) {
+//     if(a%6==0 &&a%9==0 ) {
+//         console.log("divisible by two");
+//     }
+//     else{
+//         console.log("not divisible by two");
+//     }
+// }
+// checkdivisiblity(27)
+
+// function findgrade (m) {
+//     switch(true) {
+//         case m<=20 :
+//             console.log("D");
+//             break;
+//         case m<=30:
+//             console.log("C");
+//             break;
+//         case m<=40:
+//             console.log("B");
+//             break;
+//         case m<=50:
+//             console.log("A");
+//             break;
+//         default:
+//             console.log("E");
+//             break;
+
+//     }
+// }
+// findgrade(40)
+
+
+function numdigits (n) {
+//   const value = n.length
+    return n.toString().length
+//   console.log(value);
 }
-checkdivisiblity(36)
+const value=numdigits(12345)
+console.log(value);
