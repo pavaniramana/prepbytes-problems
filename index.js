@@ -18,16 +18,22 @@ console.log("Hello");
 // }
 // checkcondition(5,3)
 
-function conditioncheck (a,b) {
-    if(a%10==0 && b%10==0) {
-        console.log("true");
-    }
-    else if(a%10==0 || b%10==0){
-        console.log("true");
-    }
-    else{
-        console.log("False");
-    }
+// function conditioncheck (a,b) {
+//     if(a%10==0 && b%10==0) {
+//         console.log("true");
+//     }
+//     else if(a%10==0 || b%10==0){
+//         console.log("true");
+//     }
+//     else{
+//         console.log("False");
+//     }
 
+// }
+// conditioncheck(12,20)
+
+function lengthnum (a) {
+    const b = parseInt(a/1000)
+    console.log(b);
 }
-conditioncheck(12,20)
+lengthnum(4567)
