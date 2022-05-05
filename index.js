@@ -33,7 +33,7 @@ console.log("Hello");
 // conditioncheck(12,20)
 
 function lengthnum (a,b) {
-    const c = a%b
+    const c = a*b
     console.log(c);
 }
-lengthnum(9,2)
+lengthnum(2,5)
