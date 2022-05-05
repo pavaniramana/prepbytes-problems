@@ -32,8 +32,10 @@ console.log("Hello");
 // }
 // conditioncheck(12,20)
 
-function lengthnum (a,b) {
-    const c = a*b
-    console.log(c);
+function lengthnum (a,b,c) {
+    const d = a+b+c
+    console.log(d);
+    const e = (d/300)*100
+    console.log(e);
 }
-lengthnum(2,5)
+lengthnum(50,20,100)
