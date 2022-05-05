@@ -8,12 +8,26 @@ console.log("Hello");
 // console.log(value);
 
 
-function checkcondition (a,b) {
-    if(a<10 && a>b){
-        console.log("True")
+// function checkcondition (a,b) {
+//     if(a<10 && a>b){
+//         console.log("True")
+//     }
+//     else{
+//         console.log("false");
+//     }
+// }
+// checkcondition(5,3)
+
+function conditioncheck (a,b) {
+    if(a%10==0 && b%10==0) {
+        console.log("true");
+    }
+    else if(a%10==0 || b%10==0){
+        console.log("true");
     }
     else{
-        console.log("false");
+        console.log("False");
     }
+
 }
-checkcondition(5,3)
+conditioncheck(12,20)
