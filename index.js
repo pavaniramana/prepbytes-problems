@@ -33,7 +33,7 @@ console.log("Hello");
 // conditioncheck(12,20)
 
 function lengthnum (a) {
-    const b = parseInt(a/1000)
+    const b = a%10
     console.log(b);
 }
 lengthnum(4567)
