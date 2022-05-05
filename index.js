@@ -32,8 +32,8 @@ console.log("Hello");
 // }
 // conditioncheck(12,20)
 
-function lengthnum (a) {
-    const b = a%10
-    console.log(b);
+function lengthnum (a,b) {
+    const c = a%b
+    console.log(c);
 }
-lengthnum(4567)
+lengthnum(9,2)
